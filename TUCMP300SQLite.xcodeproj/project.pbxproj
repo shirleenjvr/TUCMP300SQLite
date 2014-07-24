@@ -21,6 +21,8 @@
 		9B3F2401190A74C5009AC029 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B3F23E3190A74C5009AC029 /* UIKit.framework */; };
 		9B3F2409190A74C5009AC029 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9B3F2407190A74C5009AC029 /* InfoPlist.strings */; };
 		9B3F240B190A74C5009AC029 /* TUCMP300SQLiteTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B3F240A190A74C5009AC029 /* TUCMP300SQLiteTests.m */; };
+		9BECF6E1190BBB4B009BCAC0 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BECF6E0190BBB4B009BCAC0 /* libsqlite3.dylib */; };
+		9BECF6E3190BD978009BCAC0 /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BECF6E2190BD978009BCAC0 /* libsqlite3.0.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,8 @@
 		9B3F2406190A74C5009AC029 /* TUCMP300SQLiteTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TUCMP300SQLiteTests-Info.plist"; sourceTree = "<group>"; };
 		9B3F2408190A74C5009AC029 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		9B3F240A190A74C5009AC029 /* TUCMP300SQLiteTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TUCMP300SQLiteTests.m; sourceTree = "<group>"; };
+		9BECF6E0190BBB4B009BCAC0 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		9BECF6E2190BD978009BCAC0 /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9BECF6E3190BD978009BCAC0 /* libsqlite3.0.dylib in Frameworks */,
+				9BECF6E1190BBB4B009BCAC0 /* libsqlite3.dylib in Frameworks */,
 				9B3F23E2190A74C5009AC029 /* CoreGraphics.framework in Frameworks */,
 				9B3F23E4190A74C5009AC029 /* UIKit.framework in Frameworks */,
 				9B3F23E0190A74C5009AC029 /* Foundation.framework in Frameworks */,
@@ -101,6 +107,8 @@
 		9B3F23DE190A74C5009AC029 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				9BECF6E2190BD978009BCAC0 /* libsqlite3.0.dylib */,
+				9BECF6E0190BBB4B009BCAC0 /* libsqlite3.dylib */,
 				9B3F23DF190A74C5009AC029 /* Foundation.framework */,
 				9B3F23E1190A74C5009AC029 /* CoreGraphics.framework */,
 				9B3F23E3190A74C5009AC029 /* UIKit.framework */,
@@ -460,6 +468,7 @@
 				9B3F2410190A74C5009AC029 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9B3F2411190A74C5009AC029 /* Build configuration list for PBXNativeTarget "TUCMP300SQLiteTests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +477,7 @@
 				9B3F2413190A74C5009AC029 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
